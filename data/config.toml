@@ -1,0 +1,22 @@
+[wallet]
+private_key_for_signing = "cW1ciwAgTLs2EGa6cZHpfLZmUzXbkvq72s15rbiUonkrQAhDU4FG" 
+
+
+[service]
+network="testnet"
+
+[transactioninputs]
+# make this a list of inputs (with keys for signing)
+tx_hash="b19124198f1b93c6c8eabe15f7f19f29d1386be669f2e9db0fcd11ee49776057"
+tx_pos=1
+scriptpubkey="76a914b467faf0ef536db106d67f872c448bcaccb878c988ac"
+amount=39048308
+
+# Priv Key 1 -> cR2BPJzNMgz5pqq2CbQdD4FhcFAuPXuzdKYRSrwWUgdMZaxG8HTW
+# Pubkey 1 -> mn8qfy112icAxmP58WJ9y1ufwWhkWxhVQh
+# Priv Key 2 -> cNVRg3xxJYdgviVs4PrW7S9EM4yrbuxNV6gp537BHcXaivABeN7L
+# Pubkey 2 -> mskztui6VEGim1G73ukv5cwS84W8aBLrfj
+[transactionoutputs]
+#make this a list of outputs
+public_key = "mskztui6VEGim1G73ukv5cwS84W8aBLrfj"
+amount=39048108
